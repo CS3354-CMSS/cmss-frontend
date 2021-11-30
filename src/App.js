@@ -3,6 +3,8 @@ import fire from './fire';
 import './App.css';
 import Login from './Login';
 import Hero from './Hero';
+import { Switch, Redirect, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage";
 
 const App = () => {
 
@@ -99,6 +101,13 @@ const App = () => {
 
         )}
       </div>
+    //   <Switch>
+    //   <Route path="/" exact>
+    //     <Redirect to="/contacts" />
+    //   </Route>
+    //   <Route path="/contacts" exact component={HomePage} />
+    //   <Route path="*" component={HomePage} />
+    // </Switch>
   );
 };
 
