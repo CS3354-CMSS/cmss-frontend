@@ -8,6 +8,9 @@ import {
   BsMailbox2,
   BsTelephoneFill,
   BsFilePerson,
+  BsFillCameraFill,
+  BsWrench,
+  BsServer
 } from "react-icons/bs";
 import Contact from "../model/Contact";
 import { useAppDispatch } from "../app/hooks";
@@ -49,21 +52,21 @@ const ContactInfo: React.FC<ContactProps> = (props) => {
           <div className="rounded-md pl-6 text-sm font-medium text-gray-800">
             <div className="flex items-center w-full mt-3 ">
               <div className="flex items-center">
-                <BsFilePerson />
+                <BsFillCameraFill />
                 <span className="ml-1 leading-none">{contact.name}</span>
               </div>
             </div>
 
             <div className="flex items-center w-full mt-3 text-xs font-medium text-gray-400">
               <div className="flex items-center">
-                <BsTelephoneFill />
+                <BsWrench />
                 <span className="ml-1 leading-none">{contact.telephone}</span>
               </div>
             </div>
 
             <div className="flex items-center w-full mt-3 text-xs font-medium text-gray-400">
               <div className="flex items-center">
-                <BsMailbox2 />
+                <BsServer />
                 <span className="ml-1 leading-none">{contact.email}</span>
               </div>
             </div>
@@ -72,14 +75,6 @@ const ContactInfo: React.FC<ContactProps> = (props) => {
             <div className="flex items-center">
               <BsFillCalendar3WeekFill />
               <span className="ml-1 leading-none">Dec 12</span>
-            </div>
-            <div className="relative flex items-center ml-4">
-              <BsReplyAllFill />
-              <span className="ml-1 leading-none">4</span>
-            </div>
-            <div className="flex items-center ml-4">
-              <BsShareFill />
-              <span className="ml-1 leading-none">1</span>
             </div>
           </div>
         </div>
