@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# CMSS Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Home Dashboard
+![](https://i.imgur.com/kJvfDzO.png)
+
+## Camera Addition Flow
+![](https://i.imgur.com/XwNDMS0.png)
+
+## Sign Up / Login Flow 
+![](https://i.imgur.com/ECwIGhP.png)
 
 ## Available Scripts
 
